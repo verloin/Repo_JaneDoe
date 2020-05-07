@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Georgia-Italic";
+
+  src: url("../fonts/Georgia-Italic.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Georgia-Italic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Georgia-BoldItalic";
+
+  src: url("../fonts/Georgia-BoldItalic.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Georgia-BoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Georgia-Bold";
+
+  src: url("../fonts/Georgia-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Georgia-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Georgia";
+
+  src: url("../fonts/Georgia.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Georgia.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/OpenSans-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+
+  src: url("../fonts/OpenSans-SemiBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/OpenSans-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/OpenSans-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+
+  src: url("../fonts/OpenSans-Light.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/OpenSans-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+// ------------------------- Icomoon ------------------------- //
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?y7l2gj');
+  src:  url('../fonts/icomoon.eot?y7l2gj#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?y7l2gj') format('truetype'),
+    url('../fonts/icomoon.woff?y7l2gj') format('woff'),
+    url('../fonts/icomoon.svg?y7l2gj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-user:before {
+  content: "\f007";
+}
+.icon-video-camera:before {
+  content: "\f03d";
+}
